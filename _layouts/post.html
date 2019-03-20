@@ -3,8 +3,8 @@ layout: default
 ---
 <article id="main">
     <header>
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.date || date_to_string }}</p>
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.date | date_to_string }}</p>
     </header>
 
     <section class="wrapper style5">

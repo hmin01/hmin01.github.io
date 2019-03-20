@@ -4,8 +4,6 @@ layout: page
 
 <div class="post-list">
     {% assign category = page.category %}
-    <div class="{{ category }}"></div>
-    <div class="{{ site.categories.length }}"></div>
     {% for post in site.categories[category] %}
     <div class="post-list-item">
         <h3 class="post-list-item-title">
