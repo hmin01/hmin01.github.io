@@ -1,0 +1,23 @@
+/* layout - post */
+.post-content p {
+    margin: 0;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin: 0.5em 0;
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px #fff;
+    margin: 1.5em 0;
+}
+
+p.blank {
+    margin: 0.8em 0;
+}
