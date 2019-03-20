@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR');
+
+* {
+    font-family: 'Noto Sans KR', 'Noto Sans', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* layout - post */
 .post-content p {
+    margin: 3px 0 0 0;
+}
+
+.post-content code {
     margin: 0;
 }
 
@@ -20,4 +35,19 @@ hr {
 
 p.blank {
     margin: 0.8em 0;
+}
+
+/* category */
+.post-list-item {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 2px 1px #eee;
+}
+
+.post-list-item-title {
+    margin-bottom: 3px;
+}
+
+.post-list-item-date {
+    font-size: 12px;
 }
