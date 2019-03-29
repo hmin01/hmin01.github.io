@@ -25,6 +25,7 @@
                 {% if my_page.layout == "page" %}
                 <li>
                   <a class="category-link {% if page.url == my_page.url %} active {% endif %}">{{my_page.title}}</a>
+                  <!--<div class="{{ mypage.categories }}"></div>-->
                   {% if my_page.categories != null %}
                   <ul class="sub-menu" data-visible="false">
                     {% for category in my_page.categories %}

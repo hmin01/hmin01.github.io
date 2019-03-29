@@ -9,6 +9,11 @@ a {
     border-bottom: none;
 }
 
+/* banner */
+section#banner {
+    /*background-color: yellow;*/
+}
+
 /* layout - post */
 .post-content p {
     margin: 3px 0 0 0;

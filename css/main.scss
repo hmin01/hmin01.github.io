@@ -1220,7 +1220,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.wrapper {
-		@include padding(6em, 0);
+		//@include padding(5em, 0);
+		padding: 6em 0;
 
 		> .inner {
 			width: 60em;
@@ -1260,11 +1261,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		@include breakpoint(medium) {
-			@include padding(4em, 3em);
+			//@include padding(3em, 3em);
+			padding: 3em 3em;
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 2em);
+			//@include padding(2em, 2em);
+			padding: 2em 2em;
 		}
 	}
 
@@ -1750,7 +1753,8 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Footer */
 
 	#footer {
-		@include padding(6em, 0);
+		//@include padding(6em, 0);
+		padding: 6em 0;
 		background-color: darken(_palette(bg), 8);
 		text-align: center;
 
@@ -1806,11 +1810,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		@include breakpoint(medium) {
-			@include padding(4em, 3em);
+			//@include padding(4em, 3em);
+			padding: 4em 3em;
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 2em);
+			//@include padding(3em, 2em);
+			padding: 3em 2em;
 		}
 	}
 
