@@ -38,15 +38,28 @@ hr {
     margin: 1.5em 0;
 }
 
-p.blank {
-    margin: 0.8em 0;
+div.blank {
+    height: 1em;
+}
+
+div.twin_blank {
+    margin-bottom: 2em;
+}
+
+div.third_blank {
+    margin-bottom: 3em;
 }
 
 /* category */
 .post-list-item {
     padding: 15px 20px;
+    margin-bottom: 2em;
     border: 1px solid #ddd;
     box-shadow: 1px 1px 2px 1px #eee;
+}
+
+.post-list-item:last-child {
+    margin-bottom: 0;
 }
 
 .post-list-item-title {
