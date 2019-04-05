@@ -9,14 +9,14 @@ category: [blockchain]
 
 #### 1. Ethereum Wallet 설치
 
-https://github.com/ethereum/mist/release에서 Ethereum Wallet(MacOS version) 다운로드
+<https://github.com/ethereum/mist/releases>에서 Ethereum Wallet(MacOS version) 다운로드
 
 마운트 후, /Applications 내로 Ethereum Wallet.app를 이동
 <div class="third_blank"></div>
 
 #### 2. Geth 설치
 
-https://geth.ethereum.org/downloads에서 geth.tar.gz 다운로드
+<https://geth.ethereum.org/downloads>에서 geth.tar.gz 다운로드
 
 압축 해제 후, /usr/local/bin에 geth를 복사
 

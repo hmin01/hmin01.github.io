@@ -40,14 +40,17 @@ hr {
 
 div.blank {
     height: 1em;
+    margin: 0;
 }
 
 div.twin_blank {
-    margin-bottom: 2em;
+    height: 2em;
+    margin: 0;
 }
 
 div.third_blank {
-    margin-bottom: 3em;
+    height: 3em;
+    margin: 0;
 }
 
 /* category */
