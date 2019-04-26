@@ -16,7 +16,7 @@ section#banner {
 
 /* layout - post */
 .post-content p {
-    margin: 3px 0 0 0;
+    margin: 3px 0;
 }
 
 .post-content code {
@@ -38,6 +38,11 @@ hr {
     margin: 1.5em 0;
 }
 
+div.half-blank {
+    height: 0.5em;
+    margin: 0;
+}
+
 div.blank {
     height: 1em;
     margin: 0;
@@ -51,6 +56,10 @@ div.twin_blank {
 div.third_blank {
     height: 3em;
     margin: 0;
+}
+
+pre.highlight {
+    margin-bottom: 0.8em;
 }
 
 /* category */
